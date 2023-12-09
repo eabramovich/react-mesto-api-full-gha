@@ -1,0 +1,12 @@
+.login-register {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .login-register {
+        padding-top: 40px;
+    }
+}

@@ -1,0 +1,15 @@
+.header__menu-link {
+    color: #FFF;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    align-self: center;
+}
+
+.header__menu-link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

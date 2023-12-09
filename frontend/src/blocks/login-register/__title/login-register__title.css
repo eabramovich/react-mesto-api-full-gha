@@ -1,0 +1,17 @@
+.login-register__title {
+    margin: 0 auto 52px;
+    color: #FFF;
+    align-self: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .login-register__title {
+        font-size: 20px;
+        margin: 0 auto 40px;
+    }
+}

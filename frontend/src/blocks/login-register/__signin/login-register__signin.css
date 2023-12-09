@@ -1,0 +1,12 @@
+.login-register__signin {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    align-items: baseline;
+}

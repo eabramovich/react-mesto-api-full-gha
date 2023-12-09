@@ -1,0 +1,23 @@
+.form__input {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #FFF;
+    padding: 0px 0px 8px 0px;
+    color: #CCC;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form__input:focus {
+    outline: none;
+    background: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    .form__input {
+        margin-top: 0;
+    }
+}

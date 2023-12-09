@@ -1,0 +1,7 @@
+.header_menu-burger-open {
+    /* margin-top: 140px;
+    border-top: 1px solid rgba(84, 84, 84, .7); */
+    flex-flow: wrap;
+    padding: 40px 20px 33px;
+    row-gap: 26px;
+}

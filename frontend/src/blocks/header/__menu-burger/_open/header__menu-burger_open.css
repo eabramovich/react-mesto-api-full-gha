@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+    .header__menu-burger_open::before {
+        transform: rotate(45deg);
+        top: 12px
+    }
+
+    .header__menu-burger_open::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .header__menu-burger_open span {
+        transform: scale(0);
+    }
+}

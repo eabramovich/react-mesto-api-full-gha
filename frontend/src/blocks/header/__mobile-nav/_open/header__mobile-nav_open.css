@@ -1,0 +1,7 @@
+.header__mobile-nav_open {
+    order: -1;
+    width: 100%;
+    padding-bottom: 39px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+}

@@ -1,0 +1,9 @@
+.login-register__login-link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.login-register__login-link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

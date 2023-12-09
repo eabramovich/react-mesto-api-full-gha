@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px) {
+    .header__mobile-nav_open {
+        width: 100%;
+        top:  0px;
+        left: 0;
+    }
+}
