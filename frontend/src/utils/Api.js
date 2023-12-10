@@ -94,7 +94,8 @@ class Api {
 
 const api = new Api({
   // baseUrl: "https://mesto.nomoreparties.co/v1/cohort-74",
-  baseUrl: "http://localhost:3000",
+  //baseUrl: "http://localhost:3000",
+  baseUrl: "http://api.jane-mesto.nomoredomainsmonster.ru/",
   headers: {
     // authorization: "f5d4ffa0-2360-4168-849b-08882ca95571",
     "Content-Type": "application/json",

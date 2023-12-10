@@ -1,4 +1,4 @@
-import Api from "./Api";
+import Api from './Api';
 
 class AuthApi {
   constructor({ baseUrl, headers }) {
@@ -19,8 +19,8 @@ class AuthApi {
   }
 
   signup({ email, password }) {
-    return this._request("/signup", {
-      method: "POST",
+    return this._request('/signup', {
+      method: 'POST',
       headers: this._headers,
       body: JSON.stringify({
         email: email,
@@ -30,8 +30,8 @@ class AuthApi {
   }
 
   signin({ email, password }) {
-    return this._request("/signin", {
-      method: "POST",
+    return this._request('/signin', {
+      method: 'POST',
       headers: this._headers,
       body: JSON.stringify({
         email: email,
@@ -41,8 +41,8 @@ class AuthApi {
   }
 
   getContent(token) {
-    return this._request("/users/me", {
-      method: "GET",
+    return this._request('/users/me', {
+      method: 'GET',
       headers: {...this._headers,
         Authorization: `Bearer ${token}`,
       },
@@ -51,10 +51,11 @@ class AuthApi {
 }
 
 const authApi = new AuthApi({
-  // baseUrl: "https://auth.nomoreparties.co",
-  baseUrl: "http://localhost:3000",
+  // baseUrl: 'https://auth.nomoreparties.co',
+  //baseUrl: 'http://localhost:3000',
+  baseUrl: 'http://api.jane-mesto.nomoredomainsmonster.ru/',
   headers: {
-    "Content-Type": "application/json",
+    'Content-Type': 'application/json',
   },
 });
 
