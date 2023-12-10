@@ -48,7 +48,7 @@ export const likeCardById = async (req, res, next) => {
         $addToSet: { likes: req.user._id },
       },
       { new: true, runValidators: true }
-    ).populate("likes");
+    ).populate(["owner", "likes"]);
     if (!card) {
       throw new NotFoundError("Карточка с данным id не найдена");
     }
