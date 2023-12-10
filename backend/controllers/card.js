@@ -67,7 +67,7 @@ export const deleteLikeCardById = async (req, res, next) => {
         $pull: { likes: req.user._id },
       },
       { new: true, runValidators: true }
-    ).populate("likes");
+    ).populate(["owner", "likes"]);
     if (!card) {
       throw new NotFoundError("Карточка с данным id не найдена");
     }
