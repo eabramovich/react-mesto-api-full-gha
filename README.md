@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.114.129
+IP 158.160.114.129
 
 Frontend https://jane-mesto.nomoredomainsmonster.ru/
 

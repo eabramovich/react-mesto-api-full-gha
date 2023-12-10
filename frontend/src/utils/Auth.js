@@ -53,7 +53,7 @@ class AuthApi {
 const authApi = new AuthApi({
   // baseUrl: 'https://auth.nomoreparties.co',
   //baseUrl: 'http://localhost:3000',
-  baseUrl: 'http://api.jane-mesto.nomoredomainsmonster.ru',
+  baseUrl: 'https://api.jane-mesto.nomoredomainsmonster.ru',
   headers: {
     'Content-Type': 'application/json',
   },
