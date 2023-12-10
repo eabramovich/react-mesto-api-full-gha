@@ -1,4 +1,5 @@
 import express, { json } from "express";
+import 'dotenv/config.js';
 import mongoose from "mongoose";
 import router from "./routes/index.js";
 import cookieParser from "cookie-parser";
@@ -7,6 +8,7 @@ import cors from "cors";
 import { requestLogger, errorLogger } from "./middlewares/logger.js";
 
 const MONGO_DUPLICATE_ERROR_CODE = 11000;
+const { PORT = 3000 } = process.env;
 const allowedCors = [
   'localhost:3000'
 ];
@@ -50,6 +52,6 @@ app.use((err, req, res, next) => {
     });
 });
 
-app.listen(3000, () => {
-  console.log("Server listen port $(3000)");
+app.listen(PORT, () => {
+  console.log(`Server listen port ${PORT}`);
 });
