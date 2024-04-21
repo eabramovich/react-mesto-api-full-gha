@@ -34,6 +34,9 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)&nbsp;
 
 
+## Запуск локально
+
+
 ## Ссылки на проект
 
 IP 158.160.114.129
@@ -41,3 +44,15 @@ IP 158.160.114.129
 Frontend https://jane-mesto.nomoredomainsmonster.ru/
 
 Backend https://api.jane-mesto.nomoredomainsmonster.ru/
+
+## Методические рекомендации проекта
+
+[Макет](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/JavaScript.-Sprint-12?node-id=4453%3A82&t=WNBIsjbJlm5xPiY2-0) в Figma с компонентами авторизации и аутентификации
+
+[Чек лист #1](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist-12.pdf)
+
+[Чек лист #2](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist_13.pdf)
+
+[Чек лист #3](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist_14.pdf)
+
+[Чек лист #4](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist_15.pdf)
